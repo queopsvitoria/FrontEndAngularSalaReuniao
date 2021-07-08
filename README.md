@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/queopsvitoria/FrontEndAngularSalaReuniao/main/client-room/inicial.png)
+![](https://github.com/queopsvitoria/FrontEndAngularSalaReuniao/blob/main/inicial.png)
 
 # ClientRoom
 
