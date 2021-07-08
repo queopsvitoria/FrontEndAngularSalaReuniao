@@ -1,0 +1,22 @@
+<tr *ngFor="let room of rooms | async">
+  <div class="stock-card-container" [class.negative-variation-border]="room.date">
+    <div class="stock-info-container">
+      <h2>{{room.name}}</h2>
+      <p>{{room.date}}</p>
+    </div>
+    <br />
+    <div class="stock-info-container">
+      <p>Hora Inicial: {{room.startHour}}</p>
+    </div>
+    <br />
+    <div class="stock-info-container">
+      <p>Hora Final: {{room.endHour}}</p>
+    </div>
+    <td>
+      <button (click)="(room.id)" class="btn btn-danger">Apagar</button>
+      <button (click)="(room.id)" class="btn btn-info" style="margin-left: 10px">Alteração</button>
+      <button (click)="(room.id)" class="btn btn-info" style="margin-left: 10px">Detalhes</button>
+    </td>
+
+  </div>
+</tr>
