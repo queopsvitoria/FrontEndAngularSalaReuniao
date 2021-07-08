@@ -1,4 +1,4 @@
-![](/home/queops/Angular/FrontEndAngularSalaReuniao/client-room/inicial.png)
+![](https://raw.githubusercontent.com/queopsvitoria/FrontEndAngularSalaReuniao/main/client-room/inicial.png)
 
 # ClientRoom
 
